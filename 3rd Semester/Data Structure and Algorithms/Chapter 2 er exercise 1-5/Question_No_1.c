@@ -1,4 +1,5 @@
 // 1: Write a algorithm/function to initialize an array of size 10 with the first 10 positive integers.
+
 #include <stdio.h>
 
 void displaydata(int arr[], int size){
