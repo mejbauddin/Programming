@@ -1,4 +1,4 @@
-// Chapter 2 er exercise 1-5
+// // Given an array and an element, write a algorithm/function to insert the element at a specified position.
 // question 2
 #include <stdio.h>
 
@@ -30,3 +30,5 @@ int main(){
 
 
 }
+
+// question 3
