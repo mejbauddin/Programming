@@ -21,7 +21,21 @@ int main(){
     cout<<(a || b)<<endl;
     cout<<!(a && b)<<endl;
     
-
+    // Conditional Statements
+    int X;
+    cin >> X; // Get input from user
+    cout<< "Enter your Score : "<<endl;
+    if (X >= 90){
+        cout<<"Very Good"<<endl;
+    }else if (X >= 80){
+        cout<<"Good"<<endl;
+    }else if (X <=70){
+        cout<<"ok"<<endl;
+    }else if (X <=60){
+        cout<<"Pass"<<endl;
+    }else if (X < 60){
+        cout<<"Fail"<<endl;
+    }
 
 
 }
