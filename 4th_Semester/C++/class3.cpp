@@ -37,5 +37,36 @@ int main(){
         cout<<"Fail"<<endl;
     }
 
+    // Switch Statement
 
+    switch (X)
+    {
+    case 10:
+        cout<<"This is your GPA : A"<<endl;
+        break;
+    case 9:
+        cout<<"This is your GPA : B"<<endl;
+        break;
+    case 8:
+        cout<<"This is your GPA : C"<<endl;
+        break;
+    case 7:
+        cout<<"This is your GPA : D"<<endl;
+        break;
+    case 6:
+        cout<<"This is your GPA : E"<<endl;
+        break;
+    
+    default:
+        cout<<"This is your GPA : F"<<endl;
+        break;
+    }
+
+
+    // Loop
+    int num = 0;
+    while(num<=100){
+        cout<< num<<endl;
+        num++;
+    }
 }
