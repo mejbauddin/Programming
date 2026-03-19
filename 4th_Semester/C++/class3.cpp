@@ -69,4 +69,13 @@ int main(){
         cout<< num<<endl;
         num++;
     }
+
+    do{
+        cout<< "This is do while Loop" <<endl;
+        cout<< num <<endl; 
+    }while(num<=100);
+
+    for (int i =0; i < 10; i ++){
+        cout<< i;
+    }
 }
