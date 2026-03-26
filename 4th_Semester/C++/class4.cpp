@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
+// FUnction Diclaration
+int myfunction(int num1, int num2){
+    int sum = num1 + num2;
+    return sum;
+}
+
+
 int main(){
+int a =10;
+int b = 30;
+int p = myfunction(a,b);
+cout<<"The Sum is :"<< p<<endl;
  // Array 
     // one dimensional
 int arr1[5];
