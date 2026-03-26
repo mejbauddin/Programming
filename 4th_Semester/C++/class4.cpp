@@ -36,10 +36,16 @@ arr3[1][0]= 40;
 arr3[1][1] = 50;
 arr3[1][2] = 60;
 
-int n = sizeof(arr3)/sizeof(arr3[0]);
-cout<<n<<endl;
-for(int i = 0; i < 5; i++){
-    cout<<arr1[i]<<endl;
-}
+// int n = sizeof(arr3)/sizeof(arr3[0]);
+// cout<<n<<endl;
+// for(int i = 0; i < 5; i++){
+//     cout<<arr1[i]<<endl;
+// }
+
+// Another way 
+int arr4[2][3] = {
+    {1,2,3},
+    {5,6,6}
+};
 
 }
