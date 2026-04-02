@@ -1,3 +1,10 @@
+// 题目：The largest divisible number
+
+// 描述：
+// Input an integer n greater than 0, find the largest integer within 10000 that can be divided by n, and output this integer.
+
+
+
 #include <iostream>
 using namespace std;
 
