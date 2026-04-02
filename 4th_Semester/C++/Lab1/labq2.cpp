@@ -1,37 +1,27 @@
 #include <iostream>
 using namespace std;
 
+bool isPerfect(int num) {
+    if (num <= 1) return false;
+    int sum = 1;
+    for (int i = 2; i <= num / 2; i++) {
+        if (num % i == 0)
+            sum += i;
+    }
+    return sum == num;
+}
+
 int main() {
     int n1, n2;
     cin >> n1 >> n2;
-     
-    if (n1 > n2) {
-        int temp = n1;
-        n1 = n2;
-        n2 = temp;
-    }
     
     int count = 0;
-    
-    for (int num = n1; num <= n2; num++) {
-        if (num <= 1) continue; // Skip 1 and negative numbers
-        
-        int sum = 0;
-        
-        // Find all divisors (excluding the number itself)
-        for (int i = 1; i < num; i++) {
-            if (num % i == 0) {
-                sum = sum + i;
-            }
-        }
-        
-        // If sum of divisors equals the number, it's perfect
-        if (sum == num) {
+    for (int i = n1; i <= n2; i++) {
+        if (isPerfect(i)) {
             count++;
         }
     }
     
-    cout << count << endl;
-    
+    cout << count;
     return 0;
 }
