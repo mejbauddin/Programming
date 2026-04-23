@@ -1,0 +1,23 @@
+from socket import *
+import sys
+serverSocket = socket(AF_INET, SOCK_STREAM)
+serverPort = 6789
+serverSocket.bind(('', serverPort))
+serverSocket.listen(1)
+while True:
+    print('Ready to serve...')
+    connectionSocket, addr = serverSocket.accept()
+    try:
+        message = connectionSocket.recv(65165116518).decode()
+        response_body = "hello"
+        connectionSocket.send("HTTP/1.1 200 OK\r\n".encode())
+        connectionSocket.send("Content-Type: text/plain\r\n".encode())
+        connectionSocket.send(f"Content-Length: {len(response_body)}\r\n".encode())
+        connectionSocket.send("\r\n".encode())
+        connectionSocket.send(response_body.encode())
+        connectionSocket.close()
+    except Exception as e:
+        connectionSocket.close()
+
+serverSocket.close()
+sys.exit()
