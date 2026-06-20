@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/fc8be97caa4dd8b64f5c0cbbaa19eba2/nlohmann_json-populate.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/7c43dc21fae1bd7716885f528e8a0b89/nlohmann_json-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-build.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-download.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-install.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-test.rule"
+		},
+		{
+			"file" : "E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ced1000a8033e1b7e72231b95d6ebfef/nlohmann_json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmann_json-populate"
+		],
+		"name" : "nlohmann_json-populate"
+	}
+}

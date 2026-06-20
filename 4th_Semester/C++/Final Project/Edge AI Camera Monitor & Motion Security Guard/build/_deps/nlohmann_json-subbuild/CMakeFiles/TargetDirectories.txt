@@ -1,0 +1,3 @@
+E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate.dir
+E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ALL_BUILD.dir
+E:/Programming/4th_Semester/C++/Final Project/Edge AI Camera Monitor & Motion Security Guard/build/_deps/nlohmann_json-subbuild/CMakeFiles/ZERO_CHECK.dir
